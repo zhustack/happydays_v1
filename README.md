@@ -9,9 +9,10 @@
 - [x] SQL
 
 ## Back-end Structure
-> For issues learning, the programming paradigm is procedural/structured.
-> The SGBD is MySQL.
+> For issues learning, the programming paradigm is procedural/structured.\
+> The DBMS is MySQL.\
 > The webserver is Apache2.
 
 ## Front-end Structure
-> To improve skills in front-end development, this project not build with frameworks.
+> To improve skills in front-end development, this project not build with frameworks.\
+> This web project is responsive and mobile-first.
