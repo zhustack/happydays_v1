@@ -24,7 +24,7 @@
                     
                     <div class="input-group">
                         <label for="inp_pass">Password</label>
-                        <input type="text" id="inp_pass" name="inp_pass" onfocus="this.previousElementSibling.classList.add('label-animation');" onblur="if(this.value == ''){this.previousElementSibling.classList.remove('label-animation');}">
+                        <input type="password" id="inp_pass" name="inp_pass" onfocus="this.previousElementSibling.classList.add('label-animation');" onblur="if(this.value == ''){this.previousElementSibling.classList.remove('label-animation');}">
                     </div>
                     <?php
                         if(isset($_SESSION['error-login'])) {

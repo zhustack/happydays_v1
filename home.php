@@ -22,7 +22,7 @@
             </div>
             <div class="container-sub">
                 <div class="funcs">
-                    <a href="New Memories">
+                    <a href="add_mem.php">
                         <i class="far fa-sticky-note"></i>
                         <label>New Memories</label>
                     </a>

@@ -67,12 +67,28 @@
     }
 
     div.container-sub > .funcs {
-        margin-top: 2em;
+        margin-top: ;
         height: 30%;
         width: 75%;
         background: #f1f1f1;
     }
     
+    .funcs:first-child {
+        margin-top: 2em;
+        border-top-left-radius: 1.25em;
+        border-top-right-radius: 1.25em;
+    }
+
+    .funcs:last-child {
+        border-bottom-left-radius: 1.25em;
+        border-bottom-right-radius: 1.25em;
+    }
+
+    .funcs:nth-child(2) {
+        border-top: solid 0.25px #9B7D71;
+        border-bottom: solid 0.25px #9B7D71;
+    }
+
     .funcs > a {
         text-decoration: none;
         width: 100%;
