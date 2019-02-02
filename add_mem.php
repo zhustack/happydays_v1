@@ -21,7 +21,7 @@
                 <hr>
                 <p>What is your happy memory today?</p>
             </div>
-            <form action="proc_add_mem.php" method="post">
+            <form action="procs/proc_add_mem.php" method="post">
                 <div class="input-group">
                     <label for="inp_user">Title</label>
                     <input type="text" id="inp_title" name="inp_title" onfocus="this.previousElementSibling.classList.add('label-animation');" onblur="if(this.value == ''){this.previousElementSibling.classList.remove('label-animation');}" required>

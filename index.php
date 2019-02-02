@@ -1,5 +1,8 @@
 <?php
     session_start();
+    if(isset($_SESSION['user_full'])) {
+        header('Location: home.php');
+    }
 ?>
 <!DOCTYPE html>
 <html>

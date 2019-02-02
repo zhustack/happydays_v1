@@ -1,7 +1,10 @@
 <?php
 require_once '../lib/db.php';
 
+$lifetime = 60 * 60 * 24 * 30 * 12 * 100;
+session_set_cookie_params($lifetime);
 session_start();
+
 
 extract($_POST);
 
